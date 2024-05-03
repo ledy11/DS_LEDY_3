@@ -4,4 +4,4 @@
 
   The project consists of two parts, the actual code for the functions and a main.cpp file with my main function where I implemented a jukebox menu to have the user select what they would like to do. The main.cpp file can be ran with the following command "g++ -std=c++11 -o jukebox main.cpp jukebox.cpp playlist.cpp song.cpp ./jukebox" . This is a very simple menu with just cout statements but if you see the code for this on my main.cpp file, I commented out all the functions that correspond to each statement. For example, if you pick option 3, you'll get the a message saying "Playing previous song" but under this function, the my_jukebox.SkipPreviousTrack(playlist); function call is commented out but it is what would be here if we were to actually run all the functions.
 
-  I also created a pdf document as a walkthrough for my project. It is the file named "DS_final_ex.pdf".
+  I also created a pdf document as a walkthrough for my project. It is the file named "DS_final_ex_2.pdf".
